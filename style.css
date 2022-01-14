@@ -1,36 +1,24 @@
 body{
-    background-color: rgb(154, 231, 227);
+    background-size: cover;
+    background-position: center;
 }
 
-h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 100%;
-    background-color: lightseagreen;
-    padding: 15px;
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
 }
 
-#right{
-    margin-right: 20px;
+#status, #number_of_objects
+{
+font-size: 18px;
 }
 
-#h14, #h24{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 29px;
-    margin-bottom: 25px;
-    color: darkcyan;
+canvas{
+    box-shadow: 10px 10px 10px purple;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
-#snapshot{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 19px;
-}
-
-label{
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.thing{
-    background-color: darkcyan;
-    color: whitesmoke;
-}
